@@ -1,0 +1,643 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" >
+<title>Onlinehindu</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<!------------/// Only from Validation ----------->
+<link rel="stylesheet" type="text/css" href="css/validation.css" />
+<link href="css/demo.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.scrollbox.js"></script>
+<!----------/// Only from Validation End --------->
+
+<!------------------/// Css Validation Stared Here ------------>
+	<link rel="stylesheet" href="css/validationEngine.jquery.css" type="text/css"/>
+	<link rel="stylesheet" href="css/template.css" type="text/css"/>
+    
+    <link rel="stylesheet" type="text/css" href="css/pwdwidget.css" />
+<script src="js/pwdwidget.js" type="text/javascript"></script>
+
+  
+<!---------------/// Css Validation End ---------------------->
+
+<!--------------//// New Images Slider ---------------------->
+
+	<link rel="Stylesheet" type="text/css" href="css/smoothDivScroll.css" />
+	<script src="js/jquery.ui.widget.js" type="text/javascript"></script>
+	
+	<!-- Smooth Div Scroll 1.0 - minified for faster loading-->
+	<script src="js/jquery.smoothDivScroll-1.0-min.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		$(function() {
+			$("div#makeMeScrollable").smoothDivScroll({ autoScroll: "onstart", 
+														autoScrollDirection: "backandforth",
+														autoScrollStep: 1,
+														autoScrollInterval:16,
+														startAtElementId: "startAtMe",
+														visibleHotSpots: "always" });
+			
+		});
+	</script>
+    <!--------------//// New Images Slider ---------------------->
+    
+    
+    
+    <!---------------------------- ** Calander Open ** ------------------------->
+     <link rel="stylesheet" href="css/jquery-ui.css">
+     <script src="js/jquery-ui.js"></script>
+     <script>
+     $(function() {
+     $( "#datepicker" ).datepicker();
+     });
+     </script>
+    <!---------------------------- ** Calander Open ** ------------------------->
+    
+    
+    
+
+	<style type="text/css">
+	
+	#makeMeScrollable
+	{
+		width:100%;
+		position: relative;
+		float:left;
+	}
+	
+	#makeMeScrollable div.scrollableArea *
+	{
+		position: relative;
+		float: left;
+		margin: 0;
+		padding: 0;
+		margin-right:14px;
+	}
+	
+	#apDiv1 {
+	height: 100px;
+    position:absolute;
+    width: 200px;
+    z-index: 999;
+	background-image: url(images/shadow.png);
+	background-repeat:repeat-y;
+	margin-top: 20px;
+}
+
+#apDiv2 {
+	background-image: url(images/shadow2.png);
+    background-repeat: repeat-y;
+    float: left;
+    height: 100px;
+    margin-left: 633px;
+    position: absolute;
+    width: 200px;
+    z-index: 999;
+	margin-top: 20px;
+}
+/*-----------------------// Tooltip ------------------*/
+.tt-wrapper{
+
+}
+.tt-wrapper li{
+
+}
+.tt-wrapper li { display: block; text-decoration:none
+; margin-bottom: 13px;position: relative; float:left;
+}
+.tt-wrapper li span{
+	width: auto;
+	z-index: 99999;
+	height: auto;
+	background: #fec9ac;
+	line-height: 20px;
+	padding: 3px;
+	padding-left: 3px;
+	left: 50%;
+	margin-left: -64px;
+	font-weight: 400;
+	font-size: 13px;
+	color: #6c2601;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border: 2px solid #f88a4f;
+	text-indent: 0px;
+	border-radius: 5px;
+	position: absolute;
+	pointer-events: none;
+	bottom: 98px;
+	opacity: 0;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.tt-wrapper li span:before,
+.tt-wrapper li span:after{
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	margin-left: -9px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid rgba(0,0,0,0.1);
+}
+.tt-wrapper li  span:after{
+	bottom: -10px;
+	margin-left: -10px;
+	border-top: 10px solid #f88a4f;
+}
+.tt-wrapper li:hover span{
+	opacity: 0.9;
+	bottom: 70px;
+}
+.link_stared{margin-top: 10px;
+margin-left: 0px;}
+.tt-wrapper ul {margin: 0px;
+padding: 0px;}
+.tt-wrapper li h1{font-size: 19px !important;
+padding: 0px !important;
+margin: 0px !important;
+margin-right: 0px !important;
+line-height: 31px;}
+.tt-wrapper li h2{margin: 0px;
+font-size: 17px;}
+
+
+.calander
+{
+	height:40px;
+	width:200px;
+	float:left;
+	margin-left:20px;
+}
+
+.calander_icon
+{
+	height:18px;
+	width:30px;
+	float:right;
+	margin-top: -30px;
+	background:url(images/calander.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.gender
+{
+	height:40px;
+	width:233px;
+	float:left;
+	margin-left: 65px;
+	 margin-top: 10px;
+}
+
+.male
+
+{
+	height:30px;
+	width:auto;
+	float:left;
+	margin-left: 20px;
+}
+
+.male_name
+{
+	height:30px;
+	width:auto;
+	float:left;
+	
+}
+
+.female
+{
+	height:30px;
+	width:auto;
+	float:right;
+}
+
+.female_name
+{
+	height:30px;
+	width:auto;
+	float:right;
+}
+
+.dob
+{
+	height:20px;
+	width:auto;
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	margin-left: -21px;
+	margin-top: 10px;
+	
+}
+
+.gen
+{height:20px;
+	width:auto;
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	margin-right: 10px;
+	}
+	
+	.formcontainer
+{
+text-align:left;
+width:330px;
+border-top: 1px solid;
+border-bottom: 1px solid;
+padding:10px;
+margin: auto;
+}
+
+.text_box
+{
+	height:35px;
+	width:132px;
+	float:left;
+	background: none repeat-x scroll 0 0 #FFFFFF;
+	border:1px solid #b5b8c8;
+	margin-left: 92px;
+    margin-top: -25px;
+
+}
+
+.error_message
+{
+	height:20px;
+	width:360px;
+	float:left;
+	margin-left: 230px;
+	color:#F30;
+	font-size:12px;
+}
+
+.showerror_message
+{
+	height:14px;
+	width:223px;
+	float:left;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#F30;
+	margin-top:-15px;
+}
+
+.showerror_message_password
+{
+	height:14px;
+	width:223px;
+	float:left;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#F30;
+	margin-left: 93px;
+    margin-top: -26px;
+}
+
+.showerror_message_dob
+{
+	height:14px;
+	width:117px;
+	float:left;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#F30;
+	margin-left: 92px;
+
+}
+
+.showerror_message_g
+{
+	height:14px;
+	float:left;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#F30;
+	margin-left: 74px;
+    margin-top: -15px;
+}
+
+.header_border
+{
+
+	width:100%;
+	margin:auto;
+	background:url(images/header_border.jpg);
+	background-repeat:repeat-x;
+}
+
+/*-----------------------/// Tooltip End -----------------*/
+    </style>
+<!------------//// End ---------------------------------->
+
+
+
+
+</head>
+
+<body>
+<div class="header_border">
+<!-------------/// Header Started here ---------->
+<div class="header"> 
+  <!----/// Logo Started here---->
+  <div class="logo"> <img src="images/logo.png"  /> </div>
+  <!----//// Logo End Here ----> 
+  <!------/// Sing In Started Here ------>
+  <div class="error_message">Show Error Message</div>
+  <div class="header_top_login">
+    <input type="text" class="header_email" placeholder="Email Address" />
+    <input type="text" class="header_password" placeholder="Password" />
+    <input type="submit" value="Sign In" class="sign_top" />
+    <div class="clear"></div>
+    <div class="keep">
+    <a href="#" class="check_box">
+    Keep me logged in</a>
+    <input type="checkbox" />
+    </div>
+    
+    <div class="keep_1">
+    <a href="#"> Forgot your password?</a>
+    
+    </div>
+    
+    
+    
+     </div>
+  <!-----/// Sing In End ----------> 
+  
+</div>
+<!------------/// Header End ------------> 
+</div>
+
+<!------------/// Mid Section Started here ------------>
+<div class="mid"> 
+  
+  <!-------/// Mid Form Section Started-------->
+  <div class="mid_form"> 
+    <!------/// Main From ----------->
+    <div class="from">
+      <h1>Simply start with yourself </h1>
+      <div class="clear"></div>
+      <form id="formID" class="formular" method="post">
+	
+	<ul class="new_form tt-wrapper">
+    <li class="firstname_tooltip">
+    <div class="first_name_1"></div>
+    
+				<input value="" class="validate[required] text-input" type="text" name="req" id="req" placeholder="First Name" />
+                <div class="showerror_message">Show Error Message</div>
+                
+<span> Please Enter Your Firstname</span>
+            </li>
+            <li>
+              <div class="first_name_1"></div>
+			<input value="" class="validate[required] text-input" type="text" name="req" id="req" placeholder="Last Name" />
+             <div class="showerror_message">Show Error Message</div>
+                <span> Please Enter Your Lastname</span>
+</li>
+<div class="clear"></div>
+<li>
+ <div class="email"></div>
+ 
+
+				<input value="" class="validate[required,custom[email]] text-input big_field" type="text" name="email" id="email" placeholder="Email address " />
+                 <div class="showerror_message">Show Error Message</div>
+		<span> Please Enter Your Email Id</span>
+	
+</li>
+<div class="clear"></div>
+
+<li>
+			 <div class="pass"></div>
+             <div class='pwdwidgetdiv' id='thepwddiv'></div>
+		<script  type="text/javascript" >
+		var pwdwidget = new PasswordWidget('thepwddiv','regpwd');
+		pwdwidget.MakePWDWidget();
+		</script>
+		<noscript>
+		<div><input value="karnius" class="validate[required] text-input big_field" type="password" name="password" id="password" placeholder="Password" />
+       
+        </div>		
+		</noscript>
+                <span> Please Enter Your Password</span>
+            </li>
+            <div class="clear"></div>
+            <li style="margin-top:-14px;">
+             <div class="pass_repeat"></div>
+               <div class="showerror_message_password">Show Error Message</div>
+           
+				<input value="kaniusBAD" class="validate[required,equals[password]] text-input big_field" type="password" name="password2" id="password2" placeholder="Confirm password " />
+                 <div class="showerror_message">Show Error Message</div>
+            <span> Please Enter Your Re-Password</span>
+
+</li>
+<div class="clear"></div>
+<li>
+ <div class="phone"></div>
+
+				<input value="" class="validate[required,custom[phone]] text-input big_field" type="text" name="telephone" id="telephone" placeholder="Enter Your Phone Number" />
+			
+              <div class="showerror_message">Show Error Message</div>
+            <span> Please Enter Your Phone Number</span>
+</li>
+<div class="clear"></div>
+<!---------------/// Dated of Birth Stared Here --------------->
+<div class="calander tt-wrapper" >
+<ul>
+<li class="firstname_tooltip">
+<div class="dob">Date Of Birth</div>
+
+			  <div class="text_box"><input value=""  type="text" id="datepicker"  class="text-input2 validate[required,custom[phone]] icon_dob " / > <a href="#" ><div class="calander_icon" ></div></a></div>
+             <div class="showerror_message_dob">Show Error Message</div>
+               <span class="dob_span"> Please Enter Your DOB</span>
+            </li> 
+</ul>
+</div>
+<!---------------------------/// Date of birth End ----------------->
+<!--------------------------/// Gender Start ----------------------->
+<div class="gender tt-wrapper">
+<div class="gen">Gender</div>
+<ul>
+  <li class="firstname_tooltip">
+
+    
+			<input name="radio" type="radio" value="" class="firstname_tooltip" />
+            
+                
+<span class="male_span f_span">Are you a male?</span>
+            </li>
+            <li>
+        Male
+            </li>
+            
+            <li class="firstname_tooltip">
+
+    
+			<input name="radio" type="radio" value="" class="firstname_tooltip" />
+                
+<span class="female_span f_span">Are you a female?</span>
+            </li>
+            <li>
+           Female
+            </li>
+</ul>
+<div class="showerror_message_g">Show Error Message</div>
+</div>
+		
+<!--------------------------/// Gender End ------------------------->
+
+<li>
+</ul>
+
+
+		
+<div class="clear"></div>
+		<input class="submit submit_1" type="submit" value="Get Stared"/>
+        <div class="clear"></div>
+	</form>
+    </div>
+    
+    <!-------/// Main From End --------> 
+    <!----------/// Right Side of Main from------------->
+    <div class="right_mid">
+      <h1>Your story begins with theirs.</h1>
+      <img src="images/new_images_again.png"/> </div>
+    <!-------------//// Right Side of Main from---------->
+    <div class="clear"></div>
+  </div>
+  <!------//// Mid From Section End -------------> 
+  
+</div>
+<!---------/// Mid Section End ---------------> 
+
+<!----------//////Footer Section Started Here ------------>
+<div class="footer_full_width">
+  <div class="clear"></div>
+  <!-----------//// Mid Footer ------------>
+  <div class="mid_footer"> 
+    <!------//// Left Part Stared Here ------------>
+    
+    <div class="left_footer">
+      <h1>About </h1>
+      <ul>
+        <li><a href="#">Who we are</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Send a message</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Site map</a></li>
+        <li><a href="#">Copyright</a></li>
+      </ul>
+    </div>
+    <!-------------------/// Left Part End -------------> 
+    
+    <!------//// Right Part Stared Here ------------>
+    
+    <div class="right_footer"> 
+      
+      <!---------------/// New Slider Started Here -------------->
+      <div class="main_book_div">
+      
+<div class="cont">
+<!---------------//// Only For Book Stared Here --------->
+
+<div class="container">
+
+   <div id="mainContent">
+   <div id="apDiv1"></div>
+ 
+	<!-- You should specify the width and height of the images. Otherwise Google Chrome
+	can't calculate the total width of the scrollable area -->
+	<div id="makeMeScrollable">
+		<div class="scrollingHotSpotLeft"></div>
+
+		<div class="scrollingHotSpotRight"></div>
+		<div class="scrollWrapper">
+			
+			<div class="scrollableArea">
+				<a href="#"><img src="img/1 (12).jpg" alt="Demo image" width="120" height="100" border="0" /></a>
+				<a href="#"><img src="img/1 (13).jpg" alt="Demo image" width="120" height="100" /></a>
+				<a href="#"><img src="img/1 (14).jpg" alt="Demo image" width="120" height="100" /></a>
+				<a href="#"><img src="img/1 (15).jpg" alt="Demo image" width="120" height="100"  /></a>
+				<a href="#"><img src="img/1 (16).jpg" alt="Demo image" width="120" height="100" /></a>
+				<a href="#"><img src="img/1 (17).jpg" alt="Demo image" width="120" height="100" /></a>
+
+				<a href="#"><img src="img/1-(11).png" alt="Demo image" width="120" height="100" /></a>
+				<a href="#"><img src="img/1.jpg" alt="Demo image" width="120" height="100"/>	</a>
+                <a href="#"><img src="img/2.jpg" alt="Demo image" width="120" height="100"/>	</a>
+                <a href="#"><img src="img/3.jpg" alt="Demo image" width="120" height="100"/>	</a>
+                <a href="#"><img src="img/4.jpg" alt="Demo image" width="120" height="100"/>	</a>
+                <a href="#"><img src="img/5.jpg" alt="Demo image" width="120" height="100"/>	</a>
+                <a href="#"><img src="img/7.jpg" alt="Demo image" width="120" height="100"/>	</a>
+                <a href="#"><img src="img/8.jpg" alt="Demo image" width="120" height="100"/>	</a>
+                <a href="#"><img src="img/9.jpg" alt="Demo image" width="120" height="100"/>	</a>
+                <a href="#"><img src="img/10.jpg" alt="Demo image" width="120" height="100"/>	</a>
+                <a href="#"><img src="img/11.jpg" alt="Demo image" width="120" height="100"/>	</a>
+                
+                
+                		</div>
+	  </div>
+  </div>
+  <div id="apDiv2"></div>
+	
+
+
+
+
+
+</div>
+</div>
+
+<!-------------/// Only End ------------------>
+
+</div>
+<!-- END CONTAINER -->
+    </div>
+    <!---------------//// New Slider End -----------------> 
+    
+  </div>
+  <!-------------------///Right Part End ------------->
+  
+  <div class="clear"></div>
+  <div class="copy"> <span>A service provided by Silvereye IT Solutions Private Limited</span> </div>
+  <div class="clear"></div>
+</div>
+<!-----------//// Mid Footer End ---------->
+<!-------------//// Sliding Book Box --------->
+<script>
+$(function () {
+
+  $('#demo5').scrollbox({
+    direction: 'h',
+    distance: 134
+  });
+  
+  $('#demo5-backward').click(function () {
+    $('#demo5').trigger('backward');
+  });
+  $('#demo5-forward').click(function () {
+    $('#demo5').trigger('forward');
+  });
+
+});
+</script>
+<!--------------//// Sliding Book Box ------------>
+
+</div>
+<!--------///// Footer Section End -------------->
+
+</body>
+</html>

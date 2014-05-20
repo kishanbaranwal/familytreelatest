@@ -1,0 +1,37 @@
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+ <definition name="baseLayout1" template="/WEB-INF/view/jsp/layout1.jsp">
+  <put-attribute name="title" value="Sample Title" ></put-attribute>
+  <put-attribute name="header1" value="/WEB-INF/view/jsp/header1.jsp" ></put-attribute>
+  <put-attribute name="body1" value="" ></put-attribute>
+  <put-attribute name="footer1" value="/WEB-INF/view/jsp/footer1.jsp" ></put-attribute>
+ </definition>
+ <definition name="home" extends="baseLayout1">
+  <put-attribute name="title" value="Index" ></put-attribute>
+  <put-attribute name="body1" value="/WEB-INF/view/jsp/home.jsp" ></put-attribute>
+ </definition>
+ 
+  <definition name="education" extends="baseLayout1">
+  <put-attribute name="title" value="Education" ></put-attribute>
+  <put-attribute name="body1" value="/WEB-INF/view/jsp/education.jsp" ></put-attribute>
+ </definition>
+ 
+ <definition name="career" extends="baseLayout1">
+  <put-attribute name="title" value="Education" ></put-attribute>
+  <put-attribute name="body1" value="/WEB-INF/view/jsp/career.jsp" ></put-attribute>
+ </definition>
+ 
+  
+ <definition name="dashboard" extends="baseLayout1">
+  <put-attribute name="title" value="Education" ></put-attribute>
+  <put-attribute name="body1" value="/WEB-INF/view/jsp/dashboard.jsp" ></put-attribute>
+ </definition>
+ 
+  <definition name="family" extends="baseLayout1">
+  <put-attribute name="title" value="Education" ></put-attribute>
+  <put-attribute name="body1" value="/WEB-INF/view/jsp/family.jsp" ></put-attribute>
+ </definition>
+ 
+
+</tiles-definitions>  
